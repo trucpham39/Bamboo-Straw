@@ -75,7 +75,6 @@ li {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin: 57px 104px 38px 104px;
     gap: 90px;
 }
@@ -100,29 +99,31 @@ li {
 .logo {
     left: 30px;
     position: absolute;
+    top: 0;
 }
 
 /* Banner */
 .banner {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.banner img {
-    width: 50vw;
+    background: url("../images/banner.png") right top no-repeat;
+    width: 100%;
+    z-index: -1;
 }
 
 /* Main */
 .body {
-    position: absolute;
+    /* position: absolute; */
     top: 243px;
 }
 
 .intro {
     position: absolute;
-    left: 122px;
-    right: 60%;
+    top: 0;
+    margin: 0 0 0 104px;
+}
+
+.intro-text {
+    margin-top: 243px;
+    margin-right: 50;
 }
 
 .overview {
@@ -142,7 +143,6 @@ li {
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-top: 88px;
 }
 
 .btn {
