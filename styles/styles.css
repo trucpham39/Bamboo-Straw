@@ -1,0 +1,399 @@
+/* Typography */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Inika', serif;
+    color: #58C835;
+}
+
+h1 {
+    font-family: 'Inika', serif; 
+}
+
+/* Header */
+.login-box {
+    border-radius: 50px;
+    background-color: #DDCDB9;
+    position: absolute;
+    text-align: center;
+    padding: 9px 8px;
+    right: 10%;
+    top: 70px;
+}
+
+.login-box img {
+    width: 20px;
+    height: auto;
+}
+
+.login-box a {
+    margin: 10px;
+}
+
+/* Navigation bar*/
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+.nav-box {
+    border-radius: 50px;
+    background-color: #DDCDB9;
+    position: absolute;
+    text-align: center;
+    padding: 10px 100px;
+    left: 37%;
+    top: 70px;
+}
+
+li {
+    display: inline;
+
+}
+
+.nav-box a:hover {
+    color: #58C835;
+}
+
+.nav-box a:active {
+    color: #58C835;
+}
+
+/* Helper */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 57px 104px 38px 104px;
+    gap: 90px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box {
+    margin: auto;
+    border-radius: 25px;
+    width: 465px;
+    text-align: center;
+}
+
+.center { 
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    left: 30px;
+    position: absolute;
+}
+
+/* Banner */
+.banner {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner img {
+    width: 50vw;
+}
+
+/* Main */
+.body {
+    position: absolute;
+    top: 243px;
+}
+
+.intro {
+    position: absolute;
+    left: 122px;
+    right: 60%;
+}
+
+.overview {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+/* Button */
+.btn-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 88px;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: solid #58C835;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #58C835;
+    color: white;
+}
+
+.btn:active {
+    background-color: #58C835;
+    color: white;
+}
+
+button {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+/* Our Story */
+.sec-2 {
+    position: relative;
+    background-image: url("../images/ourstory.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    top: 569px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    margin: 200px 119px;
+    padding: 50px 139px;
+}
+
+.sec-2 h2 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.sec-2 p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+/* Sec-3 */
+.sec-3 {
+    text-align: center;
+    margin: 630px 122px 100px 122px;
+}
+
+.sec-3 p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.sec-3 h3 {
+    font-family: 'Inika', serif;
+    font-size: 30px;
+}
+
+/* Sec-4 Reusable Straw */
+.sec-4 {
+    background-color: #DDCDB9;
+    padding-bottom: 50px;
+}
+
+.sec-4 h3 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-left: 104px;
+    padding-top: 60px;
+}
+
+.sec-4 p {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+/* Our Best-Seller */
+
+.sec-5 h3 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.sec-5 .text-box {
+    background-color: #DDCDB9;
+}
+
+/* Testimonials */
+.sec-6 {
+    background-color: #DDCDB9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sec-6 .text-box {
+    background-color: #58C835;
+}
+
+.sec-6 h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.sec-6 h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec-6 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.sub-sec-6 {
+    background-image: url("../images/sub-sec-6-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 79px 77px 61px 77px;
+    margin: 120px 142px 146px 142px;
+}
+
+.sub-sec-6 h5 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sub-sec-6 p {
+    font-size: 22px;
+}
+
+/* Form */
+input {
+    width: 325px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #B7B7B7;
+    color: #B7B7B7;
+}
+
+/* Card */
+.production-card {
+    width: 370px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url("../imgs/product-1.jpeg");
+    background-size: cover;
+}
+
+.card-bottom {
+    background-color: #DDCDB9;
+    height: 164px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+.card-top {
+    height: 336px;
+    width: 100%;
+}
+
+.card-content {
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-text {
+    display: flex;
+}
+
+.card-desc {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.card-price {
+    font-size: 22px;
+    font-weight: 500;
+    color: #46a02a;
+}
+
+.card-text-left {
+    width: 251px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-buttons {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.card-heart-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cart-button {
+    height: 45px;
+    width: 196px;
+    border-radius: 50px;
+    background-color: #46a02a;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0px 20px;
+    
+}
+
+.heart-button-img {
+    width: 27px;
+    height: 27px;
+}
+.heart-button-img:active {
+    fill: #46a02a;
+}
+
